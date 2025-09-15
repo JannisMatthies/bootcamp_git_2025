@@ -91,7 +91,7 @@ if __name__ == '__main__':
           "Es gibt folgende Rechenoperationen:\n"
           "Mit + kannst du addieren.\n"
           "Mit - kannst du subtrahieren.\n"
-          "Mit * kannst du multipliezieren.\n"
+          "Mit * kannst du multiplizieren.\n"
           "Mit / kannst du dividieren.\n"
           "Mit % kannst du den Modulo berechnen.\n"
           "Mit ^, pow oder ** kannst du Potenzieren.\n"
