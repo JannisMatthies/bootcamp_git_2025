@@ -92,7 +92,12 @@ if __name__ == '__main__':
           "Mit + kannst du addieren.\n"
           "Mit - kannst du subtrahieren.\n"
           "Mit * kannst du multipliezieren.\n"
-          "Mit / kannst du dividieren.\n")
+          "Mit / kannst du dividieren.\n"
+          "Mit % kannst du den Modulo berechnen.\n"
+          "Mit ^, pow oder ** kannst du Potenzieren.\n"
+          "Mit sqrt kannst du die Quadratwurzel ziehen.\n"
+          "Mit ! oder fac kannst du die Fakultät berechnen.\n"
+          "Du kannst auch die letzte Lösung wiederverwenden, indem du die Eingabe leer lässt")
     while True:
         main()
         _ = input("\nProgramm Schluss. Drücke Enter!")
