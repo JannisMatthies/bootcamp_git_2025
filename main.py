@@ -36,7 +36,11 @@ def main():
         else:
             print("Bitte gib einen gültigen operator ein")
 
-        print(f"{x} {operator} {y} = {solution}")
+        if solution == 69:
+            print("nice")
+        else:
+            print(f"{x} {operator} {y} = {solution}")
+
     else:
         if operator == "sqrt":
             solution = sqrt(x)
@@ -45,7 +49,10 @@ def main():
         else:
             print("Bitte gib einen gültigen operator ein")
 
-        print(f"{x} {operator} = {solution}")
+        if solution == 69:
+            print("nice")
+        else:
+            print(f"{x} {operator} = {solution}")
 
     last_solution = solution
 
@@ -91,13 +98,8 @@ if __name__ == '__main__':
           "Es gibt folgende Rechenoperationen:\n"
           "Mit + kannst du addieren.\n"
           "Mit - kannst du subtrahieren.\n"
-          "Mit * kannst du multiplizieren.\n"
-          "Mit / kannst du dividieren.\n"
-          "Mit % kannst du den Modulo berechnen.\n"
-          "Mit ^, pow oder ** kannst du Potenzieren.\n"
-          "Mit sqrt kannst du die Quadratwurzel ziehen.\n"
-          "Mit ! oder fac kannst du die Fakultät berechnen.\n"
-          "Du kannst auch die letzte Lösung wiederverwenden, indem du die Eingabe leer lässt")
+          "Mit * kannst du multipliezieren.\n"
+          "Mit / kannst du dividieren.\n")
     while True:
         main()
         _ = input("\nProgramm Schluss. Drücke Enter!")
