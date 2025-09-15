@@ -1,35 +1,51 @@
 last_solution = 0
 
+single_operator_operations = ["sqrt", "fac"]
+
+
 def main():
     global last_solution
+    solution = 0
     x = input(f"Was ist die erste Zahl? (Leer lassen für {last_solution})\n")
     if x == "":
         x = last_solution
     else:
         x = float(x)
 
-    y = input(f"Was ist die zweite Zahl? (Leer lassen für {last_solution})\n")
-    if y == "":
-        y = last_solution
-    else:
-        y = float(y)
-
     operator = input("Welchen Operator möchtest du nutzen: ")
 
-    solution = 0
+    if operator not in single_operator_operations:
+        y = input(f"Was ist die zweite Zahl? (Leer lassen für {last_solution})\n")
+        if y == "":
+            y = last_solution
+        else:
+            y = float(y)
 
-    if operator == "+":
-        solution = add(x,y)
-    elif operator == "-":
-        solution = sub(x,y)
-    elif operator == "*":
-        solution = mul(x,y)
-    elif operator == "/":
-        solution = div(x,y)
+        if operator == "+":
+            solution = add(x,y)
+        elif operator == "-":
+            solution = sub(x,y)
+        elif operator == "*":
+            solution = mul(x,y)
+        elif operator == "/":
+            solution = div(x,y)
+        elif operator == "%":
+            solution = mod(x,y)
+        elif operator == "^" or operator == "pow" or operator == "**":
+            solution = pow(x,y)
+        else:
+            print("Bitte gib einen gültigen operator ein")
+
+        print(f"{x} {operator} {y} = {solution}")
     else:
-        print("Bitte gib einen gültigen operator ein")
+        if operator == "sqrt":
+            solution = sqrt(x)
+        elif operator == "!" or operator == "fac":
+            solution = fac(x)
+        else:
+            print("Bitte gib einen gültigen operator ein")
 
-    print(f"{x} {operator} {y} = {solution}")
+        print(f"{x} {operator} = {solution}")
 
     last_solution = solution
 
