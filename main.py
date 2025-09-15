@@ -27,10 +27,6 @@ def add(x, y):
 def sub(x, y):
     return x - y
 
-while True:
-    main()
-    _ = input("Programm Schluss. Drücke Enter!")
-
 def mul(x, y):
     return x * y
 
@@ -40,4 +36,6 @@ def div(x, y):
     return x / y
 
 if __name__ == '__main__':
-    main()
+    while True:
+        main()
+        _ = input("\nProgramm Schluss. Drücke Enter!")
