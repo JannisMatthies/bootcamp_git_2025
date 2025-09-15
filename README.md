@@ -10,10 +10,10 @@
 
 ## Anforderungen
 
-1. Wir wollen multiplizieren und dividieren können.
-2. Wir wollen die Operationen selber auswählen können.
-3. Wir wollen die Operanden selber eintippen können.
-4. Wir wollen nicht, dass das Programm sich nach der Eingabe schließt.
+1. ~~Wir wollen multiplizieren und dividieren können.~~
+2. ~~Wir wollen die Operationen selber auswählen können.~~
+3. ~~Wir wollen die Operanden selber eintippen können.~~
+4. ~~Wir wollen nicht, dass das Programm sich nach der Eingabe schließt.~~
 5. Wir wollen mit dem letzten Ergebnis direkt weiterrechnen können.
 6. Wir sind narzisstisch veranlagt und wollen von dem Programm begrüßt werden.
 7. Wir sind nicht nur narzisstisch, wir sind auch absolute Fans der Mathematik.
