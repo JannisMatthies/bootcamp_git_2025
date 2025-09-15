@@ -14,13 +14,13 @@
 2. ~~Wir wollen die Operationen selber auswählen können.~~
 3. ~~Wir wollen die Operanden selber eintippen können.~~
 4. ~~Wir wollen nicht, dass das Programm sich nach der Eingabe schließt.~~
-5. Wir wollen mit dem letzten Ergebnis direkt weiterrechnen können.
-6. Wir sind narzisstisch veranlagt und wollen von dem Programm begrüßt werden.
-7. Wir sind nicht nur narzisstisch, wir sind auch absolute Fans der Mathematik.
-   Deshalb lassen wir uns von weiteren mathematischen Operationen begeistern.
-8. Wir sind nicht nur narzisstisch und Fans der Mathematik, wir sind auch allgemein
+5. ~~Wir wollen mit dem letzten Ergebnis direkt weiterrechnen können~~
+6. ~~Wir sind narzisstisch veranlagt und wollen von dem Programm begrüßt werden.~~
+7. ~~Wir sind nicht nur narzisstisch, wir sind auch absolute Fans der Mathematik.
+   Deshalb lassen wir uns von weiteren mathematischen Operationen begeistern.~~
+8. ~~Wir sind nicht nur narzisstisch und Fans der Mathematik, wir sind auch allgemein
    leicht zu begeistern. Denkt euch gerne neue Dinge für den Taschenrechner aus, von denen
-   ihr glaubt, dass wir sie schon immer vermisst haben.
+   ihr glaubt, dass wir sie schon immer vermisst haben.~~
 
 
 
