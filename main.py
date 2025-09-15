@@ -1,6 +1,18 @@
+last_solution = 0
+
 def main():
-    x = float(input("Was ist die erste Zahl?\n"))
-    y = float(input("Was ist die zweite Zahl?\n"))
+    global last_solution
+    x = input(f"Was ist die erste Zahl? (Leer lassen für {last_solution})\n")
+    if x == "":
+        x = last_solution
+    else:
+        x = float(x)
+
+    y = input(f"Was ist die zweite Zahl? (Leer lassen für {last_solution})\n")
+    if y == "":
+        y = last_solution
+    else:
+        y = float(y)
 
     operator = input("Welchen Operator möchtest du nutzen: ")
 
@@ -18,6 +30,8 @@ def main():
         print("Bitte gib einen gültigen operator ein")
 
     print(f"{x} {operator} {y} = {solution}")
+
+    last_solution = solution
 
 
 def add(x, y):
