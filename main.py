@@ -1,6 +1,6 @@
 last_solution = 0
 
-single_operator_operations = ["sqrt", "fac"]
+single_operator_operations = ["sqrt", "fac", "!"]
 
 
 def main():
@@ -104,7 +104,7 @@ if __name__ == '__main__':
           "Mit ^, pow oder ** kannst du Potenzieren.\n"
           "Mit sqrt kannst du die Quadratwurzel ziehen.\n"
           "Mit ! oder fac kannst du die Fakultät berechnen.\n"
-          "Du kannst auch die letzte Lösung wiederverwenden, indem du die Eingabe leer lässt\n\n")
+          "Du kannst auch die letzte Lösung wiederverwenden, indem du die Eingabe leer lässt.\n\n")
     while True:
         main()
-        _ = input("\nProgramm Schluss. Drücke Enter für eine neue rechnung!\n")
+        _ = input("\nProgramm Schluss. Drücke Enter für eine neue Rechnung!\n")
