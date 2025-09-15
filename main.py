@@ -87,6 +87,12 @@ def fac(x):
     return result
 
 if __name__ == '__main__':
+    print("Hallo, willkommen in diesem Taschenrechner!\n"
+          "Es gibt folgende Rechenoperationen:\n"
+          "Mit + kannst du addieren.\n"
+          "Mit - kannst du subtrahieren.\n"
+          "Mit * kannst du multipliezieren.\n"
+          "Mit / kannst du dividieren.\n")
     while True:
         main()
         _ = input("\nProgramm Schluss. Drücke Enter!")
